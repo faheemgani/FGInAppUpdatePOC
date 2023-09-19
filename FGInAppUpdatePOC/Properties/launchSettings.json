@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FGInAppUpdatePOC (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "FGInAppUpdatePOC (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

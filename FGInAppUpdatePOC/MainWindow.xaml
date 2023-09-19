@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    
+<Window
+    x:Class="FGInAppUpdatePOC.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FGInAppUpdatePOC"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Width="1920" Height="1080" Background="White" >
+        <AppBarButton Icon="Important" x:Name="throwErrorBtn" Label="Throw Error" Click="ThrowErrorButton_Click" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" Padding="50"/>
+        <AppBarButton Icon="ContactInfo" x:Name="aboutBtn" Label="About" Click="AboutButton_Click" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" Padding="50"/>
+
+    </Grid>
+    
+    <!--<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Button x:Name="checkForUpdatesNewBtn" Content="Check For Updates" Click="CheckForUpdatesNewBtn_Click" />
+    </StackPanel>-->
+
+
+</Window>
